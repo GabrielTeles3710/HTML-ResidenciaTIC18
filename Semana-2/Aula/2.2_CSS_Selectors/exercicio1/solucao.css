@@ -1,0 +1,22 @@
+/* Element Selector */
+h1{
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+li {
+    text-align: center;
+}
+a{
+    color: brown;
+}
+a.nots{
+    color: black;
+}
+
+/* id selector, deve ser aplicado em apenas *1* elemento*/
+#sulbahia {
+    color:greenyellow;
+}
+

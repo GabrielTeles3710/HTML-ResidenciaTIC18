@@ -1,0 +1,23 @@
+#amarelo{
+   color: yellow;
+}
+
+#vermelho{
+    color: red;
+}
+
+#azul{
+    color: blue;
+}
+
+#marron{
+    color: rgb(231, 205, 170);
+}
+#violeta{
+    color: blueviolet;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
