@@ -1,0 +1,41 @@
+.container {
+    /*
+    display: inline-flex;
+    flex-direction: column; 
+    gap: 10px;
+    */
+    
+    display: flex;
+    flex-direction: row;
+    flex-basis: 200px;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.container > div {
+    flex-basis: 100px;
+    text-align: center;
+    
+}
+
+.A{
+    flex-shrink: 1;
+    background-color: #D0A2F7;
+}
+
+.B{
+    background-color:#DCBFFF;
+}
+
+.C{
+    background-color:#E5D4FF;
+}
+
+.D{
+    background-color:#F1EAFF;
+}
+
+*{
+    background-color:#FFFBF5;
+}
