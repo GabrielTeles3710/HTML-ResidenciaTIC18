@@ -3,7 +3,7 @@
     display: grid;
     /*proporcao de fracao* Ex: 1 coluna tem 10px a 2 coluna tera 20px*/
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap:1px;
 }
 

@@ -8,40 +8,66 @@
     <style>
         .container{
             display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 1fr;
-            color: blue;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-template-rows: 50px 50px 100px 100px 100px 100px;
+            gap: 15px;
+            color: white;
+            
         }
 
         .i1{
-            background-color: red;
+            background-color: rgb(58, 192, 17);
+            grid-area: 1/1/1/4;
+            padding-inline-start: 10%;
+            padding-left: 10px;
+            padding-top: 15px;
         }
 
         .i2{
             background-color: firebrick;
-            grid-column: span 2;
+            grid-area: 1/4/6/4;
+            padding-left: 10px;
+            padding-top: 15px;
         }
 
         .i3 {
-            background-color: khaki;
+            background-color: rgb(255, 81, 0);
+            grid-area: 2/1/2/1;
+            padding-left: 10px;
+            padding-top: 15px;
         }
 
         .i4 {
-            background-color: lightblue;
+            background-color: rgb(255, 81, 0);;
+            grid-area: 2/2/2/4;
+            padding-left: 10px;
+            padding-top: 15px;
         }
 
         .i5 {
-            background-color: palevioletred
+            grid-area: 3/1/5/4;
+            padding-left: 10px;
+            padding-top: 15px;
+            background-color: rgba(135, 122, 255, 0.61)
+        }
+        .i6 {
+            grid-area: 6/1/5/4;
+            padding-left: 10px;
+            padding-top: 15px;
+            background-color: rgba(116, 33, 0, 0.616)
+            
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="i1">1</div>
-        <div class="i2">2</div>
-        <div class="i3">3</div>
-        <div class="i4">4</div>
-        <div class="i5">5</div>
+        <div class="i1">Header </div>
+        <div class="i2">Barra Lateral</div>
+        <div class="i3">Caixa 1</div>
+        <div class="i4">Caixa 2</div>
+        <div class="i5">Conteúdo</div>
+        <div class="i6">Folder</div>
+        
     </div>
     
 </body>
