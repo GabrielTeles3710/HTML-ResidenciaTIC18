@@ -1,5 +1,9 @@
+@font-face {
+    font-family: Kenia;
+    src: url(src/fonts/Kenia-Regular.ttf);
+}
 h2 {
-    color: brown;
+    color: rgb(0, 0, 0);
 }
 h3 {
     font-size: 200%;
@@ -8,5 +12,5 @@ h4 {
     font-weight: 800;
 }
 h5 {
-    font-family: ;
+    font-family: Kenia;
 }

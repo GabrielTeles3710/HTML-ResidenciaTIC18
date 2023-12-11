@@ -1,0 +1,18 @@
+h2, h5{
+    color: rgb(255, 187, 0);
+}
+div.caixa p{
+    color: blue;
+}
+div.caixa p.alimentos{
+    color: cyan;
+}
+ul{
+    color: rgb(253, 153, 113);
+}
+ul.lista li.usada{
+    color: rgb(148, 0, 104);
+}
+ul.moveis li.usada{
+    color: greenyellow;
+}
