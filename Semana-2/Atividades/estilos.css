@@ -1,0 +1,101 @@
+div.Corpo {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 20%;
+    grid-auto-rows: auto;
+}
+div.Univercidade{
+    text-align: center;
+    grid-area: 1/4/1/1;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    margin-bottom: 10px;
+}
+div.Univercidade div{
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+}
+div.Menu{
+    text-align: center;
+    grid-area: 2/1/2/1;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+}
+div.Menu div{
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+}
+div.Noticias{
+    text-align: center;
+    grid-area: 2/2/2/2;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+}
+div.Noticias div{
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+}
+div.Destaques{
+    text-align: center;
+    grid-area: 2/3/3/3;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+}
+div.Destaques div{
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+}
+div.Serviços{
+    text-align: center;
+    grid-area: 3/1/3/1;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+div.Serviços div{
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+}
+div.Resultados{
+    text-align: center;
+    grid-area: 3/2/3/4;
+    background-color: blue;
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+div.Resultados div{
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+}
+
+h1{
+    text-align: center;
+}
