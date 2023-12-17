@@ -46,17 +46,17 @@
     #Campinas{
         background-image: url(../img/campinas.jpg);
     }
-    .texts{
+    div.texts{
         text-align: center;
         align-content: center;
     }
-    .infos{
+    div.infos{
         align-self: center;
         text-align: justify;
         width: fit-content;
         margin: 0 auto;
     }
-    .button{
+    div.button{
         text-align: center;
         background-color: rgb(24, 209, 24);
         border-radius: 10px;  
@@ -65,11 +65,29 @@
         padding-right: 10px;
         padding-left: 10px;
         margin: 0 auto;
+        transition-duration: 500ms;
+        box-shadow: 5px 5px 5px gray;
+    }
+    div.button:hover{
+        background-color: rgb(0, 102, 22);
+        cursor: pointer;
+        
+    }
+    div.button:active{
+        background-color: gray;
+        transition-duration: 300ms;
+        transform: scale(0.5);
     }
 }
 @media (min-width: 1201px){
     h1,h3,li,p{
         color: blueviolet;
+    }
+    h1{
+        margin-bottom: 0;
+    }
+    p{
+        margin: 0;
     }
     div.button h1{
         color: antiquewhite;
@@ -109,25 +127,38 @@
     #Campinas{
         background-image: url(../img/campinas.jpg);
     }
-    .texts{
+    div.texts{
         text-align: center;
         align-content: center;
     }
-    .infos{
+    div.infos{
         align-self: center;
         text-align: justify;
         width: fit-content;
         margin-left: 17%;
         margin-right: auto;
     }
-    .button{
+    div.button{
         text-align: center;
         background-color: rgb(24, 209, 24);
         border-radius: 10px;  
-        width: 80%;
+        width: fit-content;
         height: fit-content;
         padding-right: 10px;
         padding-left: 10px;
         margin: 0 auto;
+        margin-bottom: 10px;
+        transition-duration: 500ms;
+        box-shadow: 5px 5px 5px gray;
+    }
+    div.button:hover{
+        background-color: rgb(0, 102, 22);
+        cursor: pointer;
+        
+    }
+    div.button:active{
+        background-color: gray;
+        transition-duration: 300ms;
+        transform: scale(0.5);
     }
 }
