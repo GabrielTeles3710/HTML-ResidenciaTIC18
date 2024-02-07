@@ -68,7 +68,7 @@ async function getNews(): Promise<any> {
         elemento.innerHTML =
         `
         ${titulo}
-        <ul><li class="subText"><a href='${artigos[numArtigo++].url}'>${subtitulo}</a></li></ul>
+        <ul><li><a href='${artigos[numArtigo++].url}'>${subtitulo}</a></li></ul>
         `
       };
 
@@ -92,7 +92,7 @@ async function getNews(): Promise<any> {
         elemento.innerHTML =
         `
         ${titulo}
-        <ul><li class="subText"><a href='${artigos[numArtigo++].url}'>${subtitulo}</a></li></ul>
+        <ul><li><a href='${artigos[numArtigo++].url}'>${subtitulo}</a></li></ul>
         `
       };
 

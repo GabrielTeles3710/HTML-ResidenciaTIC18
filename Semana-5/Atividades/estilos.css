@@ -278,4 +278,7 @@ li{
 li.last{
     margin-bottom: 5%;
 }
-
+ul{
+    align-items: flex-start;
+    text-align: left;
+}
