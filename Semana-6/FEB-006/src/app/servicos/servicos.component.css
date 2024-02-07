@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+  div.Serviços {
+    text-align: center;
+    background-color: rgb(206, 255, 212);
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+  }
+  div.Serviços div {
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+  }
+}
+@media (min-width: 501px) {
+  div.Serviços {
+    text-align: center;
+    grid-area: 2/1/2/1;
+    background-color: rgb(206, 255, 212);
+    border-style: solid;
+    border-color: black;
+    margin-right: 5px;
+    margin-top: 10px;
+    border-radius: 10px;
+  }
+  div.Serviços div {
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+  }
+}
