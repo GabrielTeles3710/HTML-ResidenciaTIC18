@@ -120,6 +120,10 @@
         border-radius: 10px;
     }
     div.Footer div{
+        position: fixed;
+        bottom: 0; /* Defina a distância do fundo */
+        left: 0;
+        width: 100%; /* Garante que a largura da div seja 100% da janela */    
         border-style: solid;
         border-bottom: 0px;
         border-left: 0px;
@@ -129,7 +133,7 @@
 }
 @media  (min-width: 501px){
     div.Corpo {
-        height: 72vh;
+        height: auto;
         display: grid;
         grid-template-columns: 1fr 1fr 20%;
         grid-auto-rows: auto;
@@ -247,6 +251,10 @@
         border-radius: 10px;
     }
     div.Footer div{
+        position: fixed;
+        bottom: 0; /* Defina a distância do fundo */
+        left: 0;
+        width: 100%; /* Garante que a largura da div seja 100% da janela */   
         border-style: solid;
         border-bottom: 0px;
         border-left: 0px;
