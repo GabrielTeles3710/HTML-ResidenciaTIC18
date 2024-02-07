@@ -19,7 +19,7 @@ function getWeatherData(lat, lon) {
             if (response.ok) {
                 const weatherInfo = {
                     cidade: data.name,
-                    temperatura: temperatura.toFixed(1) + " C°",
+                    temperatura: temperatura.toFixed(1) + " C",
                     clima: data.weather[0].description,
                     umidade: data.main.humidity + "%",
                 };
