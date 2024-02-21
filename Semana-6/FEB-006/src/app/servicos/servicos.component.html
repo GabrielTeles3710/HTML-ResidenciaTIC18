@@ -2,10 +2,8 @@
     <h1>Serviços</h1>
     <div> 
         <h1>Clima/Tempo</h1>
-        <ul id="clima/tempo">
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul>
+            <li *ngFor = "let Info of Tempo">{{Info}}</li>
         </ul>
     </div>
 </div>
