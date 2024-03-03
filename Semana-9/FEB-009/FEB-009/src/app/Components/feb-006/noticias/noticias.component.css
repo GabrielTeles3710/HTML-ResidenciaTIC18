@@ -1,0 +1,37 @@
+@media (max-width: 500px) {
+    div.Noticias {
+      text-align: center;
+      background-color: rgb(206, 255, 212);
+      border-style: solid;
+      border-color: black;
+      margin-right: 5px;
+      margin-top: 5px;
+      border-radius: 10px;
+    }
+    div.Noticias div {
+      border-style: solid;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-color: black;
+    }
+  }
+  @media (min-width: 501px) {
+    div.Noticias {
+      text-align: center;
+      grid-area: 1/2/2/2;
+      background-color: rgb(206, 255, 212);
+      border-style: solid;
+      border-color: black;
+      margin-right: 5px;
+      border-radius: 10px;
+    }
+    div.Noticias div {
+      border-style: solid;
+      border-bottom: 0px;
+      border-left: 0px;
+      border-right: 0px;
+      border-color: black;
+    }
+  }
+  

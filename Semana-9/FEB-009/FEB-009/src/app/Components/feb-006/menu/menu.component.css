@@ -1,0 +1,37 @@
+@media (max-width: 500px){
+    div.Menu{
+        text-align: center;
+        border-style: solid;
+        border-color: black;
+        margin-right: 5px;
+        background-color: rgb(206, 255, 212);
+        border-radius: 10px;
+        }
+    div.Menu div{
+        border-style: solid;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: black;
+        inline-size: 100%;
+        }
+    }
+    @media  (min-width: 501px){
+    div.Menu{
+        text-align: center;
+        grid-area: 1/1/2/1;
+        background-color: rgb(206, 255, 212);
+        border-style: solid;
+        border-color: black;
+        margin-right: 5px;
+        border-radius: 10px;
+        }
+    div.Menu div{
+        border-style: solid;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: black;
+        }
+    }
+    

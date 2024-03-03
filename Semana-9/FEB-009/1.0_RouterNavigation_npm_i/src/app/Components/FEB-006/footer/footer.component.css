@@ -1,0 +1,44 @@
+@media (max-width: 500px){
+    div.Footer{
+        text-align: center;
+        background-image: url(../../imgs/5559852.jpg);
+        background-size: cover;
+        border-style: solid;
+        border-color: black;
+        margin-top: 10px;
+        border-radius: 10px;
+    }
+    div.Footer div{
+        position: fixed;
+        bottom: 0; /* Defina a distância do fundo */
+        left: 0;
+        width: 100%; /* Garante que a largura da div seja 100% da janela */    
+        border-style: solid;
+        border-bottom: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        border-color: black;
+    }
+}
+@media  (min-width: 501px){
+div.Footer{
+    text-align: center;
+    background-image: url(../../imgs/5559852.jpg); 
+    background-size: cover;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    border-radius: 10px;
+    }
+div.Footer div{
+    position: fixed;
+    bottom: 0; /* Defina a distância do fundo */
+    left: 0;
+    width: 100%; /* Garante que a largura da div seja 100% da janela */   
+    border-style: solid;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: black;
+    }
+}    

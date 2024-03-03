@@ -1,0 +1,22 @@
+@media (max-width: 500px) {
+    div.Univercidade {
+      text-align: center;
+      background-image: url(../../../../imgs/5559852.jpg);
+      background-size: cover;
+      border-style: solid;
+      border-color: black;
+      margin-bottom: 10px;
+      border-radius: 10px;
+    }
+  }
+  @media  (min-width: 501px){
+  div.Univercidade{
+      text-align: center;
+      background-image: url(../../../../imgs/5559852.jpg);
+      background-size: cover;
+      border-style: solid;
+      border-color: black;
+      margin-bottom: 10px;
+      border-radius: 10px;
+      }
+  }    

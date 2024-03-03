@@ -1,0 +1,64 @@
+#main{
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    
+    border: solid black;
+    border-radius: 10px;
+
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+#horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 95%;
+    height: 100%;
+    
+    
+    
+}
+.componentSize{
+    width: 200px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-right: solid;
+}
+
+.botao-carrinho-disabled{
+    width: 50px;
+    height: auto;
+    align-self:flex-start;
+    filter: grayscale(100%) brightness(50%);
+
+    margin-top: 15px;
+    margin-left: 15px;
+    transition-duration: 0.2s;
+}
+
+.botao-carrinho-enabled{
+    width: 50px;
+    height: auto;
+    align-self:flex-start;
+    cursor: pointer;
+    filter: grayscale(0%) brightness(100%);
+
+    margin-top: 15px;
+    margin-left: 15px;
+    transition-duration: 0.2s;
+}
+
+.botao-carrinho-enabled:hover{
+    scale: 1.1;
+}
+
+.carrinho{
+    width: 95%;
+    height: 100%;
+    margin-top: 15px;
+    
+}
