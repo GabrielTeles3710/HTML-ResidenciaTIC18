@@ -1,0 +1,9 @@
+.Form{
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+  margin-left: 5%;
+}
+.item{
+  margin-bottom: 10px;
+}
