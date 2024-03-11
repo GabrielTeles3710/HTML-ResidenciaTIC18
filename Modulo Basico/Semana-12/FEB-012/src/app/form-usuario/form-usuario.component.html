@@ -1,0 +1,22 @@
+
+<form [formGroup]="Formulario" (ngSubmit)="onSubmit()">
+    <div class="Form">
+        <h1>FEB-012</h1>
+        <input class="item" type="text" formControlName="Nome" placeholder="Nome...">
+        <input class="item" type="text" formControlName="Senha" placeholder="Senha...">
+        <input class="item" type="text" formControlName="Email" placeholder="Email...">
+        <input class="item" type="text" formControlName="NomeCompleto" placeholder="Nome Completo...">
+        <input class="item" type="text" formControlName="Telefone" placeholder="Telefone...">
+        <input class="item" type="text" formControlName="Endereco" placeholder="Endereco...">
+        <input class="item" type="text" formControlName="DTNS" placeholder="Data de nascimento...">
+        <select class="item" formControlName="Genero">
+            <option value="" disabled selected>Gênero</option>
+            <option *ngFor="let genero of generos" placeholder="Genero">{{genero}}</option>
+        </select>
+        <select class="item" formControlName="Profissao">
+            <option value="" disabled selected>Profissão</option>
+            <option *ngFor="let profissao of profissoes" placeholder="Profissão">{{profissao}}</option>
+        </select>
+        <button class="item" type="submit">Enviar</button>
+    </div>
+</form>
