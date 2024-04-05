@@ -1,22 +1,26 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { map } from 'rxjs';
-import { Form } from '@angular/forms';
+import { FormBuilder, FormGroup } from '@angular/forms';
 
-/* 
-https://dontpad.com/lobinhofront
-
-*/
 @Component({
   selector: 'app-readjson',
-  templateUrl: './readjson.component.html',
-  styleUrl: './readjson.component.css'
+  //templateUrl: './readjson.component.html',
+  template: `<form [formGroup]="formulario" (ngSubmit)="onSubmit()">
+  <div *ngFor="let campo of campos_do_form"> <label>{{campo.rotulo}}</label>
+  <input [type]="campo.tipo" [formControlName]="campo.nome"> </div>
+  <button type="submit">Enviar</button>
+  </form>`
 })
 export class ReadjsonComponent implements OnInit {
-constructor(private http: HttpClient){
+
+  constructor(private http: HttpClient ,private fb: FormBuilder) { 
+  this.formulario = this.fb.group({});this.campos_do_form.forEach(campo => {this.formulario.addControl(campo.nome, this.fb.control(''))})
 };
+
+formulario: FormGroup;
 countries: any = [];
-campos_dos_form: any = [{tipo: "text", nome: "nome",rotulo: "rotulo"}];
+campos_do_form: Array<{tipo: string, nome:string, rotulo: string}> = []; //Object.keys(countries[0])
 url: string = "https://restcountries.com/v3.1/all";
 
 getCountries(){
@@ -24,8 +28,14 @@ getCountries(){
 }
 ngOnInit() {    
   this.http.get(this.url).subscribe(countries => console.log(countries));
-  this.getCountries().subscribe(countries => {this.countries = Object.keys(countries[0]); console.log(Object.keys(countries[0]))});
+  this.getCountries().subscribe(countries => {this.countries = Object.keys(countries[0]); console.log(Object.keys(countries[0]));
+    Object.keys(countries[0]).forEach(countries => {
+    this.campos_do_form.push({tipo: "text",nome: countries.toString(), rotulo: countries.toString()})})});
 }
+onSubmit(){
+
+}
+
 }
 
 
